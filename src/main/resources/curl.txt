@@ -1,0 +1,4 @@
+exemplo de Curl para o endpoint: GET download/teste.jpg
+
+curl --location --request GET 'http://localhost:8080/download/teste.jpg' \
+--form 'file=@"/C:/Users/admin/Downloads/teste.jpg"'
